@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35410.144 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route.PL", "Route.PL\Route.PL.csproj", "{121362AA-404C-4D20-9F0A-B6A180053061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route.BLI", "Route.BLI\Route.BLI.csproj", "{F787545B-D0EC-49F4-80E6-12FEA3FA2E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route.DAL", "Route.DAL\Route.DAL.csproj", "{106A26AA-EA8E-4F4C-9429-1B4C9188F8DD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121362AA-404C-4D20-9F0A-B6A180053061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121362AA-404C-4D20-9F0A-B6A180053061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121362AA-404C-4D20-9F0A-B6A180053061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121362AA-404C-4D20-9F0A-B6A180053061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F787545B-D0EC-49F4-80E6-12FEA3FA2E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F787545B-D0EC-49F4-80E6-12FEA3FA2E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F787545B-D0EC-49F4-80E6-12FEA3FA2E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F787545B-D0EC-49F4-80E6-12FEA3FA2E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106A26AA-EA8E-4F4C-9429-1B4C9188F8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106A26AA-EA8E-4F4C-9429-1B4C9188F8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106A26AA-EA8E-4F4C-9429-1B4C9188F8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106A26AA-EA8E-4F4C-9429-1B4C9188F8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
