@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Route.DAL.Entities.Departments;
 using Route.DAL.Persistance.Data;
+using Route.DAL.Entities.Departments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
